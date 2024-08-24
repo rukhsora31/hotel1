@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width:700px) {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.menu {
+    gap: 50px;
+    display: flex;
+
+    @media (max-width:500px) {
+        gap: 40px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.header {
+    background-image: url(./img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 40px;
+    background-position: center;
+}
+
+.box {
+    margin: 150px 0 100px;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 5px;
+
+        @media (max-width:500px) {
+            font-size: 40px;
+        }
+    }
+
+    h1 {
+        font-size: 150px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+
+        @media (max-width:700px) {
+            font-size: 110px;
+        }
+
+        @media (max-width:520px) {
+            font-size: 60px;
+        }
+    }
+
+    h3 {
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 15px;
+    }
+
+    p {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #E0B973;
+    color: white;
+    border: none;
+    padding: 20px 33px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    gap: 18px;
+}
+
+.header2 {
+    background-image: url(./img/img4.jpg);
+}
+
+.header3 {
+    background-image: url(./img/img5.jpg);
+}
+
+.header4 {
+    background-color: #14274A;
+    background-image: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.wrap1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 70px;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
+}
+
+.img1 {
+    max-width: 600px;
+    width: 100%;
+}
+
+.box1 {
+    border-left: 1px solid black;
+    padding-left: 30px;
+
+    h3 {
+        font-size: 60px;
+
+        @media (max-width: 500px) {
+            font-size: 45px;
+        }
+    }
+
+    p {
+        font-size: 25px;
+        padding: 25px 0 30px;
+    }
+}
+
+.title1 {
+    font-size: 36px;
+    text-align: center;
+    padding: 85px 0;
+    font-weight: 400;
+}
+
+.wrap2 {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    h3 {
+        font-size: 60px;
+
+        @media (max-width:500px) {
+            font-size: 40px;
+        }
+    }
+
+    h4 {
+        font-size: 30px;
+
+        @media (max-width:500px) {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 25px;
+    }
+}
+
+.btns2 {
+    gap: 20px;
+    display: flex;
+}
+
+.section2 {
+    margin: 100px 0;
+}
+
+.footer {
+    background-color: #14274A;
+    color: white;
+    padding: 70px 0;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            img {
+                width: 18px;
+                height: 18px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+form {
+    display: flex;
+
+    input {
+        padding: 15px 25px;
+        color: white;
+        border: 2px solid #E0B973;
+        background: none;
+
+        &:placeholder {
+            color: white;
+        }
+    }
+
+    .btn {
+        border-radius: 0 15px 15px 0;
+        color: #14274A;
+        font-weight: 600;
+    }
+}
+
+.footer-logo {
+    max-width: 120px;
+    width: 100%;
+}
+
+.icon {
+    width: 100px;
+    height: 50px;
+    background-color: #14274A;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 0 auto;
+}
+
+.face {}
+
+.container {}
+
+.face__title {
+    text-align: center;
+    color: #14274A;
+    padding: 80px 0;
+
+    h2 {
+        margin-bottom: 35px;
+        font-size: 45px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    }
+
+    p {
+        font-size: 22px;
+    }
+}
+
+.face__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.face__card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+
+        @media (max-width: 800px) {
+            height: 400px;
+        }
+    }
+
+    h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: #fff;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+.rooms {
+}
+.container {
+}
+.face__title {
+}
+.rooms__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.rooms__card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #14274A;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    img{
+        width: 100%;
+        height: 580px;
+        object-fit: cover;
+
+        @media (max-width:800px) {
+            height: 350px;
+        }
+    }
+
+    h3{
+        color: white;
+        background-color: #14274A;
+        font-size: 45px;
+        padding: 45px 0;
+        text-align: center;
+
+        @media (max-width:800px) {
+            font-size: 30px;
+        }
+    }
+
+    div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px 0;
+        gap: 40px;
+        max-width: 800px;
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+        p{
+            background-color: #E0B973;
+            width: 40px;
+            height: 40px;
+            color:white;
+            border-radius: 50%;
+            line-height: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h4{
+            margin-right: auto;
+            color: #14274A;
+        }
+        
+    }
+
+  
+}
